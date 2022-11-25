@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+.energy {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#buttonEnergyDiv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttonEnergy {
+    color: white;
+    background-color: #555555;
+    font-size: 24px;
+    padding: 32px 32px;
+    border-radius: 40%;
+    border: 2px solid #cdd6cd;
+}
+
+.buttonEnergy:hover {
+    background-color: #343434;
+}
+
+.buttonEnergy:active {
+    background-color: #343434;
+    transform: translateY(1px);
+    border: 2px solid #374437;
+}
+
+#energyCollected {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headers {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lists {
+    list-style-type: none;
+    color: #555555;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.lists:hover {
+    color: #733c7d;
+    cursor: pointer;
+
+}
+
+.lists:active {
+    color: #441f4b;
+}

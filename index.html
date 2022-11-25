@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Until now, basic stuff -->
+
+    <title>Monster Breed</title>
+    <link rel="stylesheet" href="./styles/main-page.css">
+    <script src="./scripts/logic.js"></script>
+</head>
+<body>
+    <!-- Title and energy with button -->
+    <h1>Monster Breed</h1>
+    <div class="energy">Energy:</div>
+    <div id="energyCollected">0</div>
+    <div id="buttonEnergyDiv">
+        <button class="buttonEnergy" onclick="incrementAnything('energyCollected')">Click for energy</button>
+    </div>
+
+    <!-- Buying things and researching -->
+    <div class="headers">
+        <h2>Structures:</h2>
+        <h2>Research:</h2>
+    </div>
+    <div>
+        <ul class="lists">
+            <li onclick="incrementAnything('worker')">Worker (<span id="worker">0</span>)</li>
+        </ul>
+    </div>
+</body>
+</html>
