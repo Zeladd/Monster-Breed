@@ -11,7 +11,7 @@ h1 {
 
 #buttonEnergyDiv {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .buttonEnergy {
@@ -39,29 +39,3 @@ h1 {
     font-size: 20px;
 }
 
-.headers {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.lists {
-    list-style-type: none;
-    color: #555555;
-    font-size: 25px;
-    font-weight: bold;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    user-select:none;
-}
-
-.lists:hover {
-    color: #733c7d;
-    cursor: pointer;
-
-}
-
-.lists:active {
-    color: #441f4b;
-}
