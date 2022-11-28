@@ -9,3 +9,11 @@ function incrementAnything(useCase, value = 1) {
 
     element.innerHTML = number;
 }
+
+// unlocking anything| structure is the element that is locked
+function unlock(structure) {
+    var lockedStructure = document.getElementsByClassName(structure);
+    for(i = 0; i < lockedStructure.length; i++) {
+        lockedStructure[i].classList.remove("locked");
+    }
+}

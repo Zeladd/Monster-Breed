@@ -68,3 +68,8 @@ h1 {
 .menus li:hover {
     cursor: pointer;
 }
+
+/* The core class to lock anything */
+.locked {
+    display: none;
+}

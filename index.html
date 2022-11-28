@@ -11,6 +11,13 @@
     <script src="./scripts/logic.js"></script>
 </head>
 <body>
+    <!-- Making the navbar -->
+    <nav>
+        <a href=".">Home</a>
+        <a href="" class="hatchery locked">Hatchery</a>
+    </nav>
+
+
     <!-- Title and energy with button -->
     <h1>Monster Breed</h1>
     <div class="energy">Energy:</div>
@@ -28,7 +35,7 @@
         <div class="menus">
             <h2>Reasearch:</h2>
             <ul>
-                <li>Hatchery</li>
+                <li onclick="unlock('hatchery')">Hatchery</li>
             </ul>
         </div>
     </div>
